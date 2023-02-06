@@ -54,7 +54,6 @@ def calculate_surplus_data(sales_row):
 
     print("Calculating surplus data.\n")
     stock = SHEET.worksheet("stock").get_all_values()
-    pprint(stock)
     stock_row = stock[-1]
     print(stock_row) 
 
